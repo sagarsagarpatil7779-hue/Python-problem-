@@ -1,3 +1,4 @@
+# simple calculator program
 def add(x,y):
     return x+y
 def subtract(x,y):
@@ -36,3 +37,4 @@ while True:
             break
     else:
         print("Invalid input")
+
