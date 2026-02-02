@@ -1,8 +1,14 @@
 #check if a number is a odd or even
 
-num= int(input ("enter a number i will check no.. is odd or even"))
+#check if a number is a odd or even
 
-if 0%2:
-    print(f"{num} is even")
+num=int(input("enter a number"))
+
+if num<=0:
+    print("enter positive number")
+elif num%2==0:
+    print("even number {}".format(num))
 else:
-    print(f"{num} is a odd")
+    print(f"{num} it is odd number")
+
+
